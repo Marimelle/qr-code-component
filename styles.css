@@ -27,5 +27,16 @@ body {
   background-color: var(--slate-300);
 }
 .card {
+  margin: auto;
   background-color: var(--white);
+  width: 320px;
+  height: 499px;
+  padding: var(--sp-200);
+  padding-bottom: var(--sp-500);
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 1;
 }
