@@ -50,3 +50,11 @@ img {
   margin-bottom: var(--sp-300);
   border-radius: 10px;
 }
+h1 {
+  color: var(--slate-900);
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0;
+  margin-bottom: var(--sp-200);
+}
