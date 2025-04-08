@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 :root {
   --slate-900: #1F314F;
   --slate-500: #68778D;
@@ -7,6 +13,7 @@
   --sp-300: 24px;
   --sp-200: 16px;
   font-family: Outfit, sans-serif;
+  font-size: 15px;
 }
 .attribution {
   font-size: 11px; text-align: center;
@@ -14,4 +21,9 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
+body {
+  background-color: var(--slate-300);
+}
+.card {
+  background-color: var(--white);
+}
