@@ -22,6 +22,7 @@
   position: absolute;
   bottom: 8px;
   width: 100%;
+  color: var(--slate-900);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -29,6 +30,7 @@
 body {
   background-color: var(--slate-300);
   display: flex;
+  min-width: 320px;
   min-height: 560px;
   height: 100vh;
   flex-flow: column nowrap;
@@ -51,10 +53,19 @@ img {
   border-radius: 10px;
 }
 h1 {
+  padding: 0 var(--sp-200);
   color: var(--slate-900);
   font-weight: bold;
   font-size: 22px;
   line-height: 120%;
   letter-spacing: 0;
   margin-bottom: var(--sp-200);
+}
+p {
+  padding: 0 var(--sp-200);
+  color: var(--slate-500);
+  font-weight: normal;
+  font-size: 1rem; /* 15px */
+  line-height: 140%;
+  letter-spacing: 0.2px;
 }
